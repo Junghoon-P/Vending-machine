@@ -105,7 +105,7 @@
         <article class="cont-return">
           <h3 class="sr-only">drink return amount</h3>
           <div class="info-balance layout-flex">
-            <p>잔액 :</p>
+            <p class="tit-balance">잔액 :</p>
             <p class="txt-balance">1,000원</p>
           </div>
           <button type="button" class="btn-return box-shadow">
@@ -116,35 +116,66 @@
             <input type="number" class="inp-put" placeholder="입금액 입력" />
           </div>
           <button class="btn-put box-shadow">입금</button>
+
           <ul class="list-item-staged">
             <li class="item-staged">
-              <img src="./img/Original_Cola.svg" alt="" class="img-item" />
-              <strong class="tit-item">Original Cola</strong>
+              <div class="item-profile">
+                <img src="./img/Original_Cola.svg" alt="" class="img-item" />
+                <strong class="tit-item">Original Cola</strong>
+              </div>
+              <span class="num-counter">1</span>
+            </li>
+            <li class="item-staged">
+              <div class="item-profile">
+                <img src="./img/Original_Cola.svg" alt="" class="img-item" />
+                <strong class="tit-item">Original Cola</strong>
+              </div>
+              <span class="num-counter">1</span>
+            </li>
+            <li class="item-staged">
+              <div class="item-profile">
+                <img src="./img/Original_Cola.svg" alt="" class="img-item" />
+                <strong class="tit-item">Original Cola</strong>
+              </div>
               <span class="num-counter">1</span>
             </li>
           </ul>
-          <button type="button" class="btn-get"></button>
+          <button type="button" class="btn-get">획득</button>
         </article>
       </section>
+
       <section class="cart">
-        <h2 class="sr-only">획득한 음료 및 소지금</h2>
-        <header class="cont-mymoney layout-flex">
-          <p class="info-mymoney">소지금 :</p>
-          <p>25,000원</p>
+        <h2 class="sr-only">획득한 음료 및 총액</h2>
+        <header class="info-balance layout-flex cart-mt">
+          <p class="tit-balance">소지금 :</p>
+          <p class="txt-balance">25,000원</p>
         </header>
+
+        <!-- <div class="border-line">hello</div> -->
+
         <article>
           <h3 class="cont-myitems">획득한 음료</h3>
-          <ul class="list-item-staged">
-            <li class="item-staged layout-flex">
-              <div class="item-wrap">
-                <img
-                  src="./img/Original_Cola.svg"
-                  alt="Original_Cola"
-                  class="img-item"
-                />
-                <p class="txt-item">Original Cola</p>
+          <ul class="list-item-staged-main">
+            <li class="item-staged">
+              <div class="item-profile">
+                <img src="./img/Original_Cola.svg" alt="" class="img-item" />
+                <strong class="tit-item">Original Cola</strong>
               </div>
-              <p class="num-counter">1</p>
+              <span class="num-counter">1</span>
+            </li>
+            <li class="item-staged">
+              <div class="item-profile">
+                <img src="./img/Original_Cola.svg" alt="" class="img-item" />
+                <strong class="tit-item">Original Cola</strong>
+              </div>
+              <span class="num-counter">1</span>
+            </li>
+            <li class="item-staged">
+              <div class="item-profile">
+                <img src="./img/Original_Cola.svg" alt="" class="img-item" />
+                <strong class="tit-item">Original Cola</strong>
+              </div>
+              <span class="num-counter">1</span>
             </li>
           </ul>
         </article>
